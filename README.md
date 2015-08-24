@@ -3,7 +3,7 @@ This Repo contains miscellanous code that I have written for class and/or for fu
 Log:
 
 
-1. Binary Search Tree
-2. Huffman Encoding
-3. AVL Tree (remove method not working fully)
+1. Binary Search Tree (JUnit test class written by professor)
+2. Huffman Encoding 
+3. AVL Tree (Remove method not working fully. JUnit test class written by professor)
 
