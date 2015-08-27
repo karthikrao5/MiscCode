@@ -4,7 +4,7 @@ public class Organism {
 
     private Gene[] genome;
     private Random rand;
-    byte temp1, temp2;
+    private StringBuilder sb;
 
     private class Gene {
         private byte one;
@@ -29,10 +29,20 @@ public class Organism {
             genome[i] = new Gene((byte) Math.round(Math.random()),
                     (byte) Math.round(Math.random()));
         }
+    }
 
-//        for(int i = 0; i < genome.length; i++) {
-//            System.out.println(genome[i].toString());
-//        }
+    @Override
+    public String toString() {
+        sb = new StringBuilder();
+        for(int i = 0; i < genome.length; i++) {
+            sb.append(genome[i].toString());
+            sb.append("\n");
+        }
+        return sb.toString();
+    }
+
+    public Gene getGenes(int index) {
+        return genome[index];
     }
 
 }

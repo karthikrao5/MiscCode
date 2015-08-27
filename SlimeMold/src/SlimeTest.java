@@ -10,11 +10,12 @@ public class SlimeTest {
 
     @Before
     public void setup() {
+        org = new Organism();
     }
 
     @Test
     public void testConst() {
-        org = new Organism();
+        System.out.println(org.toString());
     }
 
 }
