@@ -48,8 +48,6 @@ public class Maze<K,V> {
         isAdded = false;
         maze = new Node[INITIAL_SIZE];
         pointer = 1;
-
-
         for(int i = 0; i < INITIAL_SIZE; i++) {
             maze[i] = new Node(null, null, false);
         }
