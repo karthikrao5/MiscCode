@@ -6,4 +6,5 @@ Log:
 1. Binary Search Tree (JUnit test class written by professor)
 2. Huffman Encoding 
 3. AVL Tree (Remove method not working fully. JUnit test class written by professor)
+4. Slime mold foraging sim(work in progress)
 
