@@ -44,5 +44,4 @@ public class Organism {
     public Gene getGenes(int index) {
         return genome[index];
     }
-
 }

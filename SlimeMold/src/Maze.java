@@ -40,8 +40,8 @@ public class Maze<K,V> {
         }
     }
 
-    public Maze(Organism organism) {
-        organism = new Organism();
+    public Maze() {
+        Organism organism = new Organism();
 
         final int INITIAL_SIZE = 15;
         nodeCounter = 0;
